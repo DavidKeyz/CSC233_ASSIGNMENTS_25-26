@@ -30,6 +30,7 @@ python gospel_piano_song_bank.py
 - The app uses Python's built-in `tkinter` only (no external dependencies).
 - Keys available are: `C, Db, D, Eb, E, F, Gb, G, Ab, A, Bb, B`.
 
+
 ## Troubleshooting
 
 - If you saw `_tkinter.TclError: unknown option "-selectcolor"`, update to the latest `gospel_piano_song_bank.py` from this repository.
@@ -40,3 +41,5 @@ python gospel_piano_song_bank.py
 ```
 
 (Or `py gospel_piano_song_bank.py` on Windows.)
+=======
+

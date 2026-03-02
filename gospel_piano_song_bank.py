@@ -220,6 +220,7 @@ class SongBankApp:
             widget.configure(bg=colors["panel"], fg=colors["text"])
         elif cls in {"Entry", "Text", "Listbox"}:
             widget.configure(bg=colors["list_bg"], fg=colors["text"], insertbackground=colors["text"], highlightbackground=colors["border"])
+
         elif cls == "Button":
             widget.configure(
                 bg=colors["button_bg"],
@@ -237,6 +238,10 @@ class SongBankApp:
                 selectcolor=colors["panel"],
                 relief="flat",
             )
+=======
+        elif cls in {"Button", "Checkbutton"}:
+            widget.configure(bg=colors["button_bg"], fg=colors["text"], activebackground=colors["panel"], activeforeground=colors["text"], selectcolor=colors["panel"], relief="flat")
+
         elif cls in {"Labelframe"}:
             widget.configure(bg=colors["panel"], fg=colors["text"])
 
